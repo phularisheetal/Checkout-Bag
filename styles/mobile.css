@@ -1,0 +1,255 @@
+@media only screen
+  and (min-width: 300px) and (max-width: 740px){
+
+body {
+  width:100%;
+  left:0;
+  margin: 0;
+  overflow: auto;
+}
+
+header {
+  font-size: 16px;
+  padding: 25px 15px;
+  box-sizing: border-box ;
+  display: block;
+}
+
+header .length {
+  display: inline;
+  font-size: 16px;
+  float: right;
+
+}
+table {
+  display: none
+}
+
+div.grid .row {
+  height: 250px;
+  position: relative;
+}
+div.grid .prod-img {
+  height: 80%;
+  display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+div.grid .row .details-wrap section:first-child{
+  height: 80%;
+}
+div.grid .row .details-wrap section:last-child {
+  height: 25%;
+}
+div.grid .prod-update {
+  position: absolute;
+  left: 0;
+  bottom:20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 12px;
+}
+div.grid .row .prod-img img {
+  height: 150px;
+  width: 145px;
+}
+div.grid .row .prod-img,div.grid .row .row-wrap {
+  width: 50%;
+}
+div.grid .row .row-right-section .quantity, div.grid .row .row-right-section .size {
+  display: none;
+}
+div.grid .row .details-wrap {
+  flex-direction: column;
+}
+div.grid .row .row-right-section .price {
+  width: 100%;
+  font-size: 18px;
+}
+div.grid .row .row-right-section .price div:first-child {
+  flex-direction: row;
+}
+
+div.grid .row .details-wrap section:last-child {
+  width: 80%;
+  justify-content: space-between;
+}
+div.grid .prod-details .li-size {
+  display: block!important
+}
+div.grid .prod-details .li-qty {
+  display: flex!important;
+  font-size:14px;
+  height: 80px;
+  align-items: center;
+}
+div.grid .prod-details ul li:nth-child(2), div.grid .prod-details ul li:nth-child(3),div.grid .prod-details ul li:nth-child(4) {
+  font-size: 12px;
+}
+div.grid .prod-details .li-qty input {
+  width: 50px;
+  text-align: center;
+  background: white;
+  border-style: none;
+  border:solid 1px rgb(198,198,199)
+}
+div.grid .prod-details ul {
+  height: 125px;
+display: flex;
+flex-direction: column;
+}
+div.grid .prod-details ul li{
+    line-height: 20px;
+}
+
+div.grid .row .details-wrap section:first-child {
+  width:85%;
+}
+
+div.grid .row .row-right-section .price div:first-child .actual-price {
+  width:50%;
+}
+
+div.items-footer aside {
+  display: none;
+}
+
+div.items-footer .promo-items-footer {
+  width: 100%;
+}
+
+div.items-footer .promo-items-footer .total-price-details {
+  padding: 0;
+  margin: 0;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px
+}
+
+div.items-footer .promo-items-footer .total-price-details li:first-child {
+  border-bottom: solid 1px rgb(198,198,199);
+  width: 100%
+}
+
+div.items-footer .promo-items-footer .total-price-details li:first-child section:first-child {
+  flex-direction: column;
+  align-items: center;
+}
+
+div.items-footer .promo-items-footer .total-price-details li:first-child section:first-child label{
+    width: 60%;
+    text-align: center;
+}
+div.items-footer .promo-items-footer .total-price-details li {
+  line-height: 25px;
+  width: 85%;
+}
+
+div.items-footer .promo-items-footer .total-price-details li:nth-child(6) section {
+  flex-direction: column-reverse;
+  line-height: 60px
+}
+div.items-footer .promo-items-footer .total-price-details li:nth-child(6) button {
+  width: 100%
+}
+div.items-footer .promo-items-footer .total-price-details li:nth-child(6) a {
+  width: 75%;
+  font-size: 14px;
+  text-align: center;
+}
+
+div.items-footer .promo-items-footer .total-price-details section .left {
+  width:70%;
+}
+
+div.items-footer .promo-items-footer .total-price-details section .right{
+  width: 30%
+}
+div.items-footer .promo-items-footer .total-price-details li:nth-child(4),div.items-footer .promo-items-footer .total-price-details li:nth-child(5){
+  line-height: 18px
+}
+
+div.items-footer .promo-items-footer .total-price-details li:nth-child(7) {
+  flex-direction: column-reverse;
+  align-items: center;
+  border-bottom: solid 1px rgb(198,198,199)
+}
+
+div.items-footer .promo-items-footer .total-price-details li:nth-child(7) span{
+  text-align: center;
+  width: 68%;
+}
+
+
+div.items-footer .promo-items-footer .total-price-details li:last-child {
+  display: block;
+}
+
+div.items-footer .promo-items-footer .total-price-details li:last-child a {
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+
+.edit-modal .wrapper {
+  width: 80%!important;
+}
+.sections {
+  flex-direction: column-reverse;
+}
+.sections section.det-cont, .sections section.img-cont{
+  width: 100%;
+}
+.sections section.det-cont {
+  height: 66%;
+}
+.sections section.img-cont{
+  height: 30%;
+}
+.sections section.det-cont ul {
+  height: 78%;
+  width: 100%;
+padding: 10px;
+}
+.sections section.img-cont img {
+  height: 100%;
+}
+.sections section.det-cont ul.prod-det-list li.price {
+    font-size: 25px;
+}
+.sections section.det-cont ul.prod-det-list li.size-qty {
+  justify-content: space-around;
+}
+
+div.items-footer .promo-items-footer .total-price-details li:first-child {
+  order: 1;
+}
+
+div.items-footer .promo-items-footer .total-price-details li:nth-child(2){
+  order: 2;
+}
+div.items-footer .promo-items-footer .total-price-details li:nth-child(3){
+  order: 4;
+  border-bottom: solid 1px rgb(198,198,199)
+}
+div.items-footer .promo-items-footer .total-price-details li:nth-child(4){
+  order: 3;
+  border-bottom: none;
+}
+div.items-footer .promo-items-footer .total-price-details li:nth-child(5){
+  order: 5;
+}
+div.items-footer .promo-items-footer .total-price-details li:nth-child(6){
+  order: 6;
+}
+div.items-footer .promo-items-footer .total-price-details li:nth-child(7){
+  order: 7;
+}
+div.items-footer .promo-items-footer .total-price-details li:nth-child(8){
+  order: 8;
+}
+}

@@ -1,0 +1,149 @@
+@media only screen
+  and (min-width: 300px) and (max-width: 1440px){
+
+.edit-modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  top:0;
+  left:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-modal .wrapper {
+  width: 60%;
+  height: 90vh;
+  background: white;
+  position: relative;
+}
+
+.edit-modal .close-modal {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color:lightgrey;
+}
+
+
+.edit-modal ul {
+  list-style-type: none;
+}
+
+.sections {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.sections section {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sections section img {
+  height: 80%;
+}
+
+.sections section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+  width: 45%;
+}
+
+.sections section ul.prod-det-list  li{
+  text-align: center;
+}
+.sections section ul.prod-det-list li .colors {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sections section ul.prod-det-list li.price {
+  font-size: 60px;
+  text-align: center;
+}
+
+.sections section ul.prod-det-list li:nth-child(2) sup{
+  font-size: 20px;
+}
+
+ .sections section ul.prod-det-list li.size-qty{
+   display: flex;
+   justify-content: space-between;
+}
+.sections section ul.prod-det-list li.editButton {
+  height: 50px;
+  background: #1169BD;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.dropdown select{
+  border: solid 1px lightgrey;
+  width:90px;
+  padding: 5px 10px;
+  position: relative;
+  box-sizing: border-box;
+  font-size: 14px;
+  overflow: hidden;
+}
+.dropdown select option {
+  padding: 5px 10px;
+}
+
+.dropdown .SIZE,.dropdown .QTY,.dropdown span.icon {
+  display: flex;
+
+}
+.dropdown span.icon {
+  font-size:14px;
+  padding-left: 8px;
+  width:10px;
+  font-weight: bold;
+  align-items: center;
+  position: absolute;
+  right: 8px
+}
+.dropdown .options.show {
+  display: block;
+  position: fixed;
+}
+
+.dropdown .options.hide {
+  display: none;
+}
+.dropdown .options ul.options-list{
+  width: 100%;
+  padding: 0;
+}
+.dropdown .options ul.options-list li{
+  text-align: left;
+}
+.dropdown .options ul li.selected {
+  font-weight: bold;
+}
+.dropdown .options ul li.selected span.tick {
+  float: right;
+}
+
+option.selected {
+  background:   #FFA07A;
+  color:white;
+}
+
+}

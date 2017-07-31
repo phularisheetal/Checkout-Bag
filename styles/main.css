@@ -1,0 +1,14 @@
+@import url('desktop.css');
+@import url('mobile.css');
+@import url('modal.css');
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+
+body {
+  font-family: Lato, Arial!important  ;
+  color:#515A5A
+
+}
+a,input,select,.close-modal,.colors span {
+  cursor: pointer;
+}
