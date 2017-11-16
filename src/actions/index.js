@@ -9,7 +9,6 @@ export const loadtItems = () => {
 
 
 export const editBag = (productId,state) => {
-  debugger
 
   return {
     type:'EDIT_BAG',
